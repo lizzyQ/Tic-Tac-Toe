@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link href="https://fonts.googleapis.com/css?family=Crafty+Girls" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+     <h1>Tic Tac Toe</h1>
+     <table>
+       <tbody>
+         <tr>
+           <td id="c0"></td>
+           <td id="c1"></td>
+           <td id="c2"></td>
+         </tr>
+         <tr>
+           <td id="c3"></td>
+           <td id="c4"></td>
+           <td id="c5"></td>
+         </tr>
+         <tr>
+           <td id="c6"></td>
+           <td id="c7"></td>
+           <td id="c8"></td>
+         </tr>
+       </tbody>
+     </table>
+     <div class="player" id="popup">
+       <p> Please select</p>
+       <button class="btn" id="btnX" value="x" onclick="iconSelect(this)">X</button>
+       <button class="btn" id="btnO" value="o" onclick="iconSelect(this)">O</button>
+     </div>
+      <div class="player" id="winner">
+        <p id ="winInfo"> </p>
+       </div>
+</div>
+<script src="js/index.js"></script>
+
+</body>
+</html>
